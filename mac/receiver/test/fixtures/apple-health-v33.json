@@ -1,0 +1,31 @@
+{
+  "kind": "shortcuts_wake_v1",
+  "driver": "Apple Shortcuts",
+  "exporter_version": "3.3.0",
+  "run_id": "run-test-001",
+  "trigger": "health_sleep_score_notification",
+  "captured_at": "2026-11-01T08:00:00+08:00",
+  "event_id": "event-test-001",
+  "event_received_at": "2026-11-01T07:55:00+08:00",
+  "collection_status": "complete",
+  "collection_status_reason": "合成测试数据",
+  "time_precision_policy": "保留原始样本时间精度",
+  "sleep": {
+    "sample_count": 5,
+    "query_status": "readable_samples_returned",
+    "source_status": "per_sample_source_status",
+    "samples": [
+      {"stage":"core","stage_text":"核心睡眠","stage_code":"core","value_text":"核心睡眠","start_date":"2026-10-31T22:00:00+08:00","end_date":"2026-11-01T00:00:00+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"},
+      {"stage":"deep","stage_text":"深度睡眠","stage_code":"deep","value_text":"深度睡眠","start_date":"2026-11-01T00:00:00+08:00","end_date":"2026-11-01T01:00:00+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"},
+      {"stage":"rem","stage_text":"REM","stage_code":"rem","value_text":"REM","start_date":"2026-11-01T01:00:00+08:00","end_date":"2026-11-01T02:00:00+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"},
+      {"stage":"awake","stage_text":"清醒","stage_code":"awake","value_text":"清醒","start_date":"2026-11-01T02:00:00+08:00","end_date":"2026-11-01T02:10:00+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"},
+      {"stage":"core","stage_text":"核心睡眠","stage_code":"core","value_text":"核心睡眠","start_date":"2026-11-01T02:10:00+08:00","end_date":"2026-11-01T07:00:00+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"}
+    ]
+  },
+  "metrics": {
+    "heart_rate": {"sample_count":1,"query_status":"readable_samples_returned","source_status":"per_sample_source_status","samples":[{"value":67,"value_text":"67","unit":"count/min","start_date":"2026-11-01T05:00:00+08:00","end_date":"2026-11-01T05:00:01+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"}]},
+    "resting_heart_rate": {"sample_count":1,"query_status":"readable_samples_returned","source_status":"per_sample_source_status","samples":[{"value":61,"value_text":"61","unit":"count/min","start_date":"2026-11-01T05:00:00+08:00","end_date":"2026-11-01T05:00:01+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"}]},
+    "heart_rate_variability": {"sample_count":1,"query_status":"readable_samples_returned","source_status":"per_sample_source_status","value_type":"SDNN","samples":[{"value":35,"value_text":"35","unit":"ms","start_date":"2026-11-01T05:00:00+08:00","end_date":"2026-11-01T05:00:01+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"}]},
+    "oxygen_saturation": {"sample_count":1,"query_status":"readable_samples_returned","source_status":"per_sample_source_status","samples":[{"value":97,"value_text":"97","unit":"%","start_date":"2026-11-01T05:00:00+08:00","end_date":"2026-11-01T05:00:01+08:00","source_text":"Synthetic Watch","source_name_text":"Synthetic Watch","source_name_status":"returned_by_system_action","time_precision":"second","source_status":"returned_by_system_action"}]}
+  }
+}

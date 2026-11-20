@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.example.apple-health-ai-bridge</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/env</string>
+    <string>node</string>
+    <string>__PROJECT_ROOT__/mac/scripts/run_health_receiver.mjs</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HEALTH_UPLOAD_PORT</key>
+    <string>18787</string>
+    <key>HEALTH_UPLOAD_TOKEN</key>
+    <string>__GENERATE_AND_SET_LOCALLY__</string>
+    <key>APPLE_HEALTH_DATA_HOME</key>
+    <string>__LOCAL_APPLICATION_SUPPORT_DIRECTORY__</string>
+    <key>HEALTH_ICLOUD_DIR</key>
+    <string>__LOCAL_ICLOUD_SHORTCUTS_DIRECTORY__</string>
+    <key>HEALTH_STAGE_C_IMPORT</key>
+    <string>on</string>
+    <key>HEALTH_STAGE_C_AUTOMATION</key>
+    <string>enabled</string>
+    <key>HEALTH_STAGE_D3_MODE</key>
+    <string>prepare</string>
+    <key>HERMES_BIN</key>
+    <string>hermes</string>
+    <key>PYTHON_BIN</key>
+    <string>python3</string>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>__PRIVATE_LOG_DIRECTORY__/receiver.log</string>
+  <key>StandardErrorPath</key>
+  <string>__PRIVATE_LOG_DIRECTORY__/receiver-error.log</string>
+</dict>
+</plist>

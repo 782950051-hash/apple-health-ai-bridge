@@ -1,0 +1,9 @@
+{
+  "name": "apple-health-ai-bridge",
+  "private": true,
+  "scripts": {
+    "test:mac": "npm --prefix mac/receiver test",
+    "test:python": "python3 -m unittest discover -s tests -p 'test_*.py' -v",
+    "test": "npm run test:mac && npm run test:python"
+  }
+}

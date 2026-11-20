@@ -1,0 +1,241 @@
+[
+  {
+    "id": "step_count",
+    "picker_label": "Steps",
+    "hk_identifier": "HKQuantityTypeIdentifierStepCount",
+    "type_labels": [
+      "Steps",
+      "Step Count",
+      "步数"
+    ],
+    "label_zh": "步数",
+    "device_verified": true
+  },
+  {
+    "id": "heart_rate",
+    "picker_label": "Heart Rate",
+    "hk_identifier": "HKQuantityTypeIdentifierHeartRate",
+    "type_labels": [
+      "Heart Rate",
+      "心率"
+    ],
+    "label_zh": "心率",
+    "device_verified": false
+  },
+  {
+    "id": "resting_heart_rate",
+    "picker_label": "Resting Heart Rate",
+    "hk_identifier": "HKQuantityTypeIdentifierRestingHeartRate",
+    "type_labels": [
+      "Resting Heart Rate",
+      "静息心率"
+    ],
+    "label_zh": "静息心率",
+    "device_verified": false
+  },
+  {
+    "id": "hrv_sdnn",
+    "picker_label": "Heart Rate Variability",
+    "hk_identifier": "HKQuantityTypeIdentifierHeartRateVariabilitySDNN",
+    "type_labels": [
+      "Heart Rate Variability",
+      "Heart Rate Variability SDNN",
+      "心率变异性",
+      "心率变异性（SDNN）"
+    ],
+    "label_zh": "心率变异性",
+    "device_verified": false
+  },
+  {
+    "id": "respiratory_rate",
+    "picker_label": "Respiratory Rate",
+    "hk_identifier": "HKQuantityTypeIdentifierRespiratoryRate",
+    "type_labels": [
+      "Respiratory Rate",
+      "呼吸频率"
+    ],
+    "label_zh": "呼吸频率",
+    "device_verified": false
+  },
+  {
+    "id": "oxygen_saturation",
+    "picker_label": "Oxygen Saturation",
+    "hk_identifier": "HKQuantityTypeIdentifierOxygenSaturation",
+    "type_labels": [
+      "Blood Oxygen",
+      "Blood Oxygen Saturation",
+      "Oxygen Saturation",
+      "血氧",
+      "血氧饱和度"
+    ],
+    "label_zh": "血氧",
+    "device_verified": false
+  },
+  {
+    "id": "sleeping_wrist_temperature",
+    "picker_label": "Sleep Wrist Temperature",
+    "hk_identifier": "HKQuantityTypeIdentifierAppleSleepingWristTemperature",
+    "type_labels": [
+      "Sleeping Wrist Temperature",
+      "Apple Sleeping Wrist Temperature",
+      "睡眠手腕温度",
+      "手腕温度",
+      "Sleep Wrist Temperature"
+    ],
+    "label_zh": "睡眠手腕温度",
+    "device_verified": false
+  },
+  {
+    "id": "active_energy",
+    "picker_label": "Active Calories",
+    "hk_identifier": "HKQuantityTypeIdentifierActiveEnergyBurned",
+    "type_labels": [
+      "Active Calories",
+      "Active Energy",
+      "Active Energy Burned",
+      "活动能量",
+      "活动热量"
+    ],
+    "label_zh": "活动能量",
+    "device_verified": false
+  },
+  {
+    "id": "basal_energy",
+    "picker_label": "Resting Energy",
+    "hk_identifier": "HKQuantityTypeIdentifierBasalEnergyBurned",
+    "type_labels": [
+      "Resting Energy",
+      "Basal Energy",
+      "Basal Energy Burned",
+      "静息能量",
+      "基础能量",
+      "静息热量"
+    ],
+    "label_zh": "静息能量",
+    "device_verified": false
+  },
+  {
+    "id": "exercise_minutes",
+    "picker_label": "Exercise Minutes",
+    "hk_identifier": "HKQuantityTypeIdentifierAppleExerciseTime",
+    "type_labels": [
+      "Exercise Minutes",
+      "Apple Exercise Time",
+      "锻炼分钟数",
+      "锻炼时间"
+    ],
+    "label_zh": "锻炼分钟数",
+    "device_verified": false
+  },
+  {
+    "id": "stand_minutes",
+    "picker_label": "Stand Minutes",
+    "hk_identifier": "HKQuantityTypeIdentifierAppleStandTime",
+    "type_labels": [
+      "Stand Minutes",
+      "Apple Stand Time",
+      "站立分钟数",
+      "站立时间"
+    ],
+    "label_zh": "站立分钟数",
+    "device_verified": false
+  },
+  {
+    "id": "walking_running_distance",
+    "picker_label": "Walking + Running Distance",
+    "hk_identifier": "HKQuantityTypeIdentifierDistanceWalkingRunning",
+    "type_labels": [
+      "Walking + Running Distance",
+      "步行+跑步距离",
+      "步行 + 跑步距离",
+      "步行和跑步距离"
+    ],
+    "label_zh": "步行与跑步距离",
+    "device_verified": false
+  },
+  {
+    "id": "flights_climbed",
+    "picker_label": "Flights Climbed",
+    "hk_identifier": "HKQuantityTypeIdentifierFlightsClimbed",
+    "type_labels": [
+      "Flights Climbed",
+      "已爬楼层",
+      "爬楼层数"
+    ],
+    "label_zh": "已爬楼层",
+    "device_verified": false
+  },
+  {
+    "id": "walking_heart_rate",
+    "picker_label": "Walking Heart Rate Average",
+    "hk_identifier": "HKQuantityTypeIdentifierWalkingHeartRateAverage",
+    "type_labels": [
+      "Walking Heart Rate Average",
+      "Walking Heart Rate",
+      "步行平均心率",
+      "步行心率"
+    ],
+    "label_zh": "步行平均心率",
+    "device_verified": false
+  },
+  {
+    "id": "walking_speed",
+    "picker_label": "Walking Speed",
+    "hk_identifier": "HKQuantityTypeIdentifierWalkingSpeed",
+    "type_labels": [
+      "Walking Speed",
+      "步行速度"
+    ],
+    "label_zh": "步行速度",
+    "device_verified": false
+  },
+  {
+    "id": "walking_step_length",
+    "picker_label": "Walking Step Length",
+    "hk_identifier": "HKQuantityTypeIdentifierWalkingStepLength",
+    "type_labels": [
+      "Walking Step Length",
+      "步长",
+      "步行步长"
+    ],
+    "label_zh": "步长",
+    "device_verified": false
+  },
+  {
+    "id": "walking_asymmetry",
+    "picker_label": "Walking Asymmetry Percentage",
+    "hk_identifier": "HKQuantityTypeIdentifierWalkingAsymmetryPercentage",
+    "type_labels": [
+      "Walking Asymmetry Percentage",
+      "Walking Asymmetry",
+      "步行不对称性",
+      "步行不对称百分比"
+    ],
+    "label_zh": "步行不对称性",
+    "device_verified": false
+  },
+  {
+    "id": "walking_steadiness",
+    "picker_label": "Walking Steadiness",
+    "hk_identifier": "HKQuantityTypeIdentifierAppleWalkingSteadiness",
+    "type_labels": [
+      "Walking Steadiness",
+      "步行稳定性"
+    ],
+    "label_zh": "步行稳定性",
+    "device_verified": false
+  },
+  {
+    "id": "cardio_fitness",
+    "picker_label": "Cardio Fitness",
+    "hk_identifier": "HKQuantityTypeIdentifierVO2Max",
+    "type_labels": [
+      "Cardio Fitness",
+      "VO2 Max",
+      "最大摄氧量",
+      "心肺适能"
+    ],
+    "label_zh": "心肺适能",
+    "device_verified": false
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "collected_at": "2026-10-21T08:00:00+08:00",
+  "collection_status": "complete",
+  "missing": [],
+  "metrics": [
+    {
+      "type": "step_count",
+      "value": 4321,
+      "unit": "count",
+      "start": "2026-10-20T00:00:00+08:00",
+      "end": "2026-10-20T23:59:59+08:00",
+      "source": "Apple Watch"
+    }
+  ],
+  "sleep": [
+    {
+      "stage": "asleepCore",
+      "start": "2026-10-20T22:00:00+08:00",
+      "end": "2026-10-21T06:00:00+08:00",
+      "source": "Synthetic Watch"
+    }
+  ],
+  "workouts": []
+}

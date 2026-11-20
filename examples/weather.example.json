@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "source": "apple_weather_shortcuts",
+  "observed_at": "2026-01-02T08:00:00+08:00",
+  "forecast_date": "2026-01-02",
+  "location_name": "合成示例地区",
+  "condition": "多云",
+  "temperature_current_raw": "20°C",
+  "temperature_current_source": "apple_weather_current_conditions.temperature",
+  "temperature_current_raw_unit": "embedded",
+  "temperature_current_raw_type": "shortcuts_text",
+  "temperature_feels_like_raw": "19°C",
+  "temperature_feels_like_source": "apple_weather_current_conditions.feels_like",
+  "temperature_feels_like_raw_unit": "embedded",
+  "temperature_feels_like_raw_type": "shortcuts_text",
+  "precipitation_probability_raw": "0.4",
+  "precipitation_probability_source": "apple_weather_daily_forecast.precipitation_chance",
+  "precipitation_probability_raw_unit": "embedded",
+  "precipitation_probability_raw_type": "shortcuts_text",
+  "temperature_max_c": 23,
+  "temperature_min_c": 15
+}

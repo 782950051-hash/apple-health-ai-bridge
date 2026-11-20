@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-01-02",
+  "timezone": "Asia/Shanghai",
+  "collected_at": "2026-01-03T07:00:00+08:00",
+  "collection_status": "partial",
+  "missing": ["workouts"],
+  "metrics": [
+    {
+      "type": "step_count",
+      "value": 4321,
+      "unit": "count",
+      "start": "2026-01-02T00:00:00+08:00",
+      "end": "2026-01-02T23:59:59+08:00",
+      "source": "Synthetic Watch"
+    }
+  ],
+  "sleep": [
+    {
+      "stage": "asleepCore",
+      "start": "2026-01-01T22:00:00+08:00",
+      "end": "2026-01-02T06:00:00+08:00",
+      "source": "Synthetic Watch"
+    }
+  ],
+  "workouts": []
+}
